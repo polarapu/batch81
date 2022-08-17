@@ -1,0 +1,5 @@
+hello
+vi /etc/profile.d/java.sh
+export JAVA_HOME=/root/java/jdk-11.0.15
+export PATH=${JAVA_HOME}/bin:${PATH}
+source /etc/profile.d/java.sh
